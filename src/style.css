@@ -82,6 +82,11 @@ header > p {
 .meme-form > input {
     width: 45%;
     height: 40px;
+    line-height: 30px;
+}
+
+input[type="text"] {
+    font-size: 25px;
 }
 
 .meme-form > button {
@@ -91,25 +96,25 @@ header > p {
     letter-spacing: 1.5px;
     color: white;
     background: #6441A5;
-}
+}    
 
 .meme-form > input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-family: VT323, monospace;
   font-size: 25px;
-  text-align: cen
+  overflow: visible;
 }
 .meme-form > input::-moz-placeholder { /* Firefox 19+ */
   font-family: VT323, monospace;
   font-size: 25px;
-  text-align: cen
+  overflow: visible;
 }
 .meme-form > input:-ms-input-placeholder { /* IE 10+ */
   font-family: VT323, monospace;
   font-size: 25px;
-  text-align: cen
+  overflow: visible;
 }
 .meme-form > input:-moz-placeholder { /* Firefox 18- */
   font-family: VT323, monospace;
   font-size: 25px;
-  text-align: cen
+  overflow: visible;
 }
